@@ -1,0 +1,69 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-16_17-55-59",
+            "content": "@@ -1,175 +0,0 @@\n-class Towel:%0A    def __init__(self, color: str, size: str):%0A        self.color: str = color%0A        self.size: str = size%0A        self.wetness: int = 0%0A%0ATowel(%22blue%22, %22G%22)%0A%0A%0A%0A\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-09-16_18-10-32",
+            "content": "@@ -150,21 +150,13 @@\n  0%0A%0A\n-azul = \n Towel\n- \n (%22bl\n@@ -170,18 +170,6 @@\n %22)%0A%0A\n-%0Aprint(auzl)\n %0A%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2025-09-16_18-12-06",
+            "content": "@@ -182,14 +182,14 @@\n %0Aprint(a\n-z\n u\n+z\n l)%0A%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-09-16_18-12-13",
+            "content": "@@ -177,60 +177,19 @@\n G%22)%0A\n-amarelo = Towel(%22yellow%22, %22p%22)%0A%0Aprint(amarelo.size)%0A%0A%0A\n+%0A%0Aprint(azul)\n %0A%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-09-16_18-13-32",
+            "content": "@@ -229,29 +229,8 @@\n ze)%0A\n-print(amarelo.color)%0A\n %0A%0A%0A%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-09-16_18-13-46",
+            "content": "@@ -251,43 +251,7 @@\n r)%0A%0A\n-print(azul.size)%0Aprint(azul.color)%0A%0A\n %0A%0A%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2025-09-16_18-14-15",
+            "content": "@@ -1,8 +1,28 @@\n+@@ -1,158 +1,40 @@%0A-\n class To\n@@ -25,17 +25,19 @@\n s Towel:\n-%0A\n+%250A\n     def \n@@ -74,17 +74,19 @@\n e: str):\n-%0A\n+%250A\n         \n@@ -108,17 +108,19 @@\n  = color\n-%0A\n+%250A\n         \n@@ -140,17 +140,19 @@\n r = size\n-%0A\n+%250A\n         \n@@ -176,124 +176,409 @@\n  = 0\n-%0A%0A%0A    def __str__(self) -%3E str:%0A        return f%22Cor: %7Bself.color%7D, tam:%7Bself.size%7D, umidade: %7Bself.wetness%7D%22    %0A%0A\n+%250A%250A%250A%0A+@@ -150,122 +150,8 @@%250A  0%25250A%25250A%250A-%25250A%0A     %0A@@ -56,15 +56,19 @@%0A f) -%0A-%253E%0A+%25253E%0A  str:%0A-%250A%0A+%25250A%0A     %0A@@ -83,15 +83,19 @@%0A rn f%0A-%2522%0A+%252522%0A Cor: %0A-%257B%0A+%25257B%0A self%0A@@ -104,16 +104,20 @@%0A olor%0A-%257D%0A+%25257D%0A , tam:%0A-%257B%0A+%25257B%0A self%0A@@ -121,17 +121,19 @@%0A elf.size%0A-%257D%0A+%25257D%0A , umidad%0A@@ -139,9 +139,11 @@%0A de: %0A-%257B%0A+%25257B%0A self%0A@@ -154,152 +154,27 @@%0A ness%0A-%257D%2522    %250A%250A\n azul\n@@ -591,21 +591,31 @@\n el (\n-%22\n+%2522\n blue\n-%22, %22G%22)%0A\n+%2522, %2522G%2522)%250A\n amar\n@@ -630,24 +630,36 @@\n wel(\n-%22\n+%2522\n yellow\n-%22, %22p%22)%0A%0A\n+%2522, %2522p%2522)%250A%250A\n prin\n@@ -669,25 +669,27 @@\n marelo.size)\n-%0A\n+%250A\n print(amarel\n@@ -696,18 +696,22 @@\n o.color)\n-%0A%0A\n+%250A%250A\n print(az\n@@ -718,17 +718,19 @@\n ul.size)\n-%0A\n+%250A\n print(az\n@@ -738,13 +738,60 @@\n l.color)\n-%0A%0A%0A%0A\n+%250A%250A%250A%250A%0A+%25257D%252522    %25250A%25250A%250A azul%0A %250A\n %0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-16_18-22-40",
+            "content": "@@ -401,20 +401,7 @@\n r)%0A%0A\n-print(azul)%0A%0A\n %0A%0A%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-09-16_18-22-48",
+            "content": "@@ -220,12 +220,8 @@\n  tam\n-anho\n :%7Bse\n",
+            "lines": "24"
+        },
+        {
+            "label": "2025-09-16_18-22-59",
+            "content": "@@ -264,80 +264,8 @@\n %7D%22  \n-%0A%0A    def dry(self, amount: int) -%3E None:%0A        self.wetness += amount\n   %0A%0A\n@@ -416,23 +416,8 @@\n zul)\n- %0A%0Aazul.dry(10)\n %0A%0A%0A%0A\n",
+            "lines": "24"
+        },
+        {
+            "label": "2025-09-16_18-26-59",
+            "content": "@@ -1,8 +1,29 @@\n+@@ -1,523 +1,101 @@%0A-\n class To\n@@ -26,17 +26,19 @@\n s Towel:\n-%0A\n+%250A\n     def \n@@ -75,17 +75,19 @@\n e: str):\n-%0A\n+%250A\n         \n@@ -109,17 +109,19 @@\n  = color\n-%0A\n+%250A\n         \n@@ -141,17 +141,19 @@\n r = size\n-%0A\n+%250A\n         \n@@ -173,19 +173,25 @@\n  int = 0\n-%0A%0A%0A\n+%250A%250A%250A\n     def \n@@ -209,15 +209,19 @@\n f) -\n-%3E\n+%253E\n  str:\n-%0A\n+%250A\n     \n@@ -236,15 +236,19 @@\n rn f\n-%22\n+%2522\n Cor: \n-%7B\n+%257B\n self\n@@ -253,17 +253,19 @@\n lf.color\n-%7D\n+%257D\n , tamanh\n@@ -266,17 +266,19 @@\n tamanho:\n-%7B\n+%257B\n self.siz\n@@ -278,17 +278,19 @@\n elf.size\n-%7D\n+%257D\n , umidad\n@@ -296,9 +296,11 @@\n de: \n-%7B\n+%257B\n self\n@@ -311,14 +311,22 @@\n ness\n-%7D%22  %0A%0A\n+%257D%2522  %250A%250A\n     \n@@ -357,16 +357,20 @@\n t) -\n-%3E\n+%253E\n  None:\n-%0A\n+%250A\n     \n@@ -397,18 +397,22 @@\n amount  \n-%0A%0A\n+%250A%250A\n azul = T\n@@ -421,21 +421,31 @@\n el (\n-%22\n+%2522\n blue\n-%22, %22G%22)%0A\n+%2522, %2522G%2522)%250A\n amar\n@@ -460,24 +460,36 @@\n wel(\n-%22\n+%2522\n yellow\n-%22, %22p%22)%0A%0A\n+%2522, %2522p%2522)%250A%250A\n prin\n@@ -499,25 +499,27 @@\n marelo.size)\n-%0A\n+%250A\n print(amarel\n@@ -522,26 +522,30 @@\n arelo.color)\n-%0A%0A\n+%250A%250A\n print(azul.s\n@@ -548,17 +548,19 @@\n ul.size)\n-%0A\n+%250A\n print(az\n@@ -568,18 +568,22 @@\n l.color)\n-%0A%0A\n+%250A%250A\n print(az\n@@ -586,17 +586,19 @@\n t(azul) \n-%0A\n+%250A\n azul.dry\n@@ -600,17 +600,19 @@\n l.dry(5)\n-%0A\n+%250A\n azul.dry\n@@ -615,14 +615,159 @@\n .dry(10)\n-%0A%0A%0A%0A%0A\n+%250A%250A%250A%250A%250A%0A+@@ -490,19 +490,8 @@%250A l) %25250A%250A-azul.dry(5)%250A %25250Aazu%250A@@ -500,13 +500,12 @@%250A dry(10)%25250A%25250A%25250A%25250A%25250A%250A-%25250A%0A %250A\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-09-16_18-27-46",
+            "content": "@@ -511,24 +511,13 @@\n dry(10)%0A\n-print(azul)\n %0A%0A%0A%0A%0A\n",
+            "lines": "30"
+        },
+        {
+            "label": "2025-09-16_18-28-08",
+            "content": "class Towel:\n    def __init__(self, color: str, size: str):\n        self.color: str = color\n        self.size: str = size\n        self.wetness: int = 0\n\n\n    def __str__(self) -> str:\n        return f\"Cor: {self.color}, tamanho:{self.size}, umidade: {self.wetness}\"  \n\n    def dry(self, amount: int) -> None:\n        self.wetness += amount  \n\nazul = Towel (\"blue\", \"G\")\namarelo = Towel(\"yellow\", \"p\")\n\nprint(amarelo.size)\nprint(amarelo.color)\n\nprint(azul.size)\nprint(azul.color)\n\nprint(azul) \nazul.dry(5)\nazul.dry(10)\nprint(azul)\n\n\n\n\n",
+            "lines": "30"
+        }
+    ]
+}
