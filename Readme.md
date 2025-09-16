@@ -1,6 +1,6 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=20535074)
 ---
-nomeAluno: "Seu nome"
+nomeAluno: "Fernando Araújo Menezes"
 matricula: "Digite sua matrícula aqui por obséquio"
 ---
 
@@ -15,7 +15,8 @@ code --install-extension usernamehw.errorlens
 code --install-extension jeff-hughes.open-terminal-here
 
 # Abra o arquivo de configurações do vscode para o projeto e adicione o seguinte parâmetro
-code .vscode/settings.json
+code .
+
 {
     "python.analysis.typeCheckingMode": "strict"
 }

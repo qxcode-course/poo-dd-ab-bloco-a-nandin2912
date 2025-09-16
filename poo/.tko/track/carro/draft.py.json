@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-16_17-18-04",
+            "content": "@@ -1,22 +0,0 @@\n-print(%22nandin bacana%22)\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-09-16_17-24-02",
+            "content": "@@ -4,73 +4,19 @@\n nt(%22\n-qual seu nome%22)%0Anome: str = input()%0A%0Aprint(f%22opa, seu nome %C3%A9 %7Bnome%7D\n+nandin bacana\n %22)\n",
+            "lines": "1"
+        },
+        {
+            "label": "2025-09-16_17-28-34",
+            "content": "@@ -43,16 +43,17 @@\n %0A%0Aprint(\n+f\n %22opa, se\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-09-16_17-33-44",
+            "content": "@@ -47,9 +47,8 @@\n int(\n-f\n %22opa\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-09-16_17-33-52",
+            "content": "print(\"qual seu nome\")\nnome: str = input()\n\nprint(f\"opa, seu nome \u00e9 {nome}\")",
+            "lines": "4"
+        }
+    ]
+}
