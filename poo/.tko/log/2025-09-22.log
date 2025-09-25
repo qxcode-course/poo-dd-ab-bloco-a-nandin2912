@@ -1,0 +1,66 @@
+2025-09-22 17:36:01, MOVE, v:1, k:toalha, mode:PICK
+2025-09-22 17:36:02, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:61
+2025-09-22 17:36:29, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:75
+2025-09-22 17:36:29, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:75
+2025-09-22 17:36:30, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:75
+2025-09-22 17:36:32, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-09-22 17:36:36, MOVE, v:1, k:toalha, mode:BACK
+2025-09-22 17:36:42, MOVE, v:1, k:toalha, mode:PICK
+2025-09-22 17:36:43, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-09-22 17:36:54, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-09-22 17:37:02, MOVE, v:1, k:toalha, mode:BACK
+2025-09-22 17:37:09, MOVE, v:1, k:enxugar, mode:PICK
+2025-09-22 17:37:12, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 17:38:50, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:50
+2025-09-22 17:41:18, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:50
+2025-09-22 17:41:38, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:50
+2025-09-22 17:41:42, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 17:41:44, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 17:42:40, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:51
+2025-09-22 17:44:40, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:51
+2025-09-22 17:44:41, EXEC, v:1, k:enxugar, mode:FULL, rate:20
+2025-09-22 17:47:16, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:55
+2025-09-22 17:48:23, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:56
+2025-09-22 17:50:01, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:57
+2025-09-22 17:50:02, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 17:50:12, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:58
+2025-09-22 17:50:12, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:58
+2025-09-22 17:50:13, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:58
+2025-09-22 17:50:13, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:58
+2025-09-22 17:50:13, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:58
+2025-09-22 17:51:48, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:59
+2025-09-22 17:51:49, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:59
+2025-09-22 17:51:50, EXEC, v:1, k:enxugar, mode:FULL, rate:20
+2025-09-22 17:51:50, EXEC, v:1, k:enxugar, mode:FULL, rate:20
+2025-09-22 17:54:16, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:61
+2025-09-22 17:54:18, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 17:55:04, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:60
+2025-09-22 17:55:42, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:61
+2025-09-22 17:56:30, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 17:56:32, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 17:57:43, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 17:58:05, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 17:58:19, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 17:59:09, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 18:02:49, MOVE, v:1, k:enxugar, mode:BACK
+2025-09-22 18:02:53, MOVE, v:1, k:enxugar, mode:PICK
+2025-09-22 18:02:55, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:61
+2025-09-22 18:02:56, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 18:02:57, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-09-22 18:03:04, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:62
+2025-09-22 18:03:08, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 23:11:57, MOVE, v:1, k:enxugar, mode:PICK
+2025-09-22 23:12:00, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 23:13:01, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 23:14:28, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 23:15:07, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:61
+2025-09-22 23:15:22, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:61
+2025-09-22 23:16:37, EXEC, v:1, k:enxugar, mode:FULL, rate:10, size:62
+2025-09-22 23:16:42, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:62
+2025-09-22 23:21:30, EXEC, v:1, k:enxugar, mode:FULL, rate:10, size:62
+2025-09-22 23:21:52, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:62
+2025-09-22 23:22:54, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 23:23:20, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 23:24:45, EXEC, v:1, k:enxugar, mode:FULL, rate:40
+2025-09-22 23:25:21, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:56
+2025-09-22 23:25:29, EXEC, v:1, k:enxugar, mode:FULL, rate:50, size:58

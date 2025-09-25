@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_17-27-32",
+            "content": "@@ -1,419 +0,0 @@\n-class Animal: %0A %0A    def __init__(self, species, sound):%0A        self.species = species%0A        self.age =  0%0A        self.sound = sound %0A%0A    def toString(self):%0A        return %22f%7Bself.species%7D:%7Bself.age%7D:%7Bself.sound%7D%22%0A    %0A    def ageBy(self, increment):%0A        if self.age %3C 4 :%0A            self.age =+ increment%0A%0A            if self.age %3E 4 :%0A                self.age = 4%0A        else: %0A            print(%22RIP%22)%0A%0A%0A\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-09-23_18-07-41",
+            "content": "@@ -407,40 +407,12 @@\n int(\n-f%22warning: %7Bself.species%7D morreu\n+%22RIP\n %22)%0A%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-09-23_18-09-59",
+            "content": "@@ -444,214 +444,4 @@\n )%0A%0A%0A\n-    def makeSound(self):%0A        if self.age == 0 :%0A            print(%22---%22)%0A              %0A        elif self.age == 4:%0A            print(%22RIP%22)%0A%0A%0A            %0A        return %22f%7Bself.sound%7D%22%0A%0A      %0A        %0A%0A%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-09-23_18-24-29",
+            "content": "@@ -508,20 +508,20 @@\n     \n-return \n+print(\n %22---%22\n+)\n %0A   \n@@ -576,20 +576,20 @@\n     \n-return \n+print(\n %22RIP%22\n+)\n %0A%0A%0A \n",
+            "lines": "35"
+        },
+        {
+            "label": "2025-09-23_18-25-53",
+            "content": "class Animal: \n \n    def __init__(self, species, sound):\n        self.species = species\n        self.age =  0\n        self.sound = sound \n\n    def toString(self):\n        return \"f{self.species}:{self.age}:{self.sound}\"\n    \n    def ageBy(self, increment):\n        if self.age < 4 :\n            self.age =+ increment\n\n            if self.age > 4 :\n                self.age = 4\n        else: \n            print(f\"warning: {self.species} morreu\")\n\n\n    def makeSound(self):\n        if self.age == 0 :\n            return \"---\"\n              \n        elif self.age == 4:\n            return \"RIP\"\n\n\n            \n        return \"f{self.sound}\"\n\n      \n        \n\n\n",
+            "lines": "35"
+        }
+    ]
+}
