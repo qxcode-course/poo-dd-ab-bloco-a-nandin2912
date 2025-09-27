@@ -1,0 +1,9 @@
+2025-09-27 19:49:28, MOVE, v:1, k:enxugar, mode:PICK
+2025-09-27 19:49:29, EXEC, v:1, k:enxugar, mode:FULL, rate:50
+2025-09-27 21:49:34, MOVE, v:1, k:enxugar, mode:PICK
+2025-09-27 21:49:35, EXEC, v:1, k:enxugar, mode:FULL, rate:50
+2025-09-27 21:57:28, EXEC, v:1, k:enxugar, mode:FULL, rate:50
+2025-09-27 21:58:49, EXEC, v:1, k:enxugar, mode:FULL, rate:50, size:58
+2025-09-27 21:59:30, EXEC, v:1, k:enxugar, mode:FULL, rate:90, size:58
+2025-09-27 22:01:36, EXEC, v:1, k:enxugar, mode:FULL, rate:90, size:60
+2025-09-27 22:05:15, EXEC, v:1, k:enxugar, mode:FULL, rate:100, size:60
