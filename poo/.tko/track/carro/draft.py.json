@@ -22,8 +22,18 @@
         },
         {
             "label": "2025-09-16_17-33-52",
-            "content": "print(\"qual seu nome\")\nnome: str = input()\n\nprint(f\"opa, seu nome \u00e9 {nome}\")",
-            "lines": "4"
+            "content": "@@ -1,8 +1,28 @@\n+@@ -1,149 +1,76 @@%0A-\n class Ca\n@@ -25,17 +25,19 @@\n s Carro:\n-%0A\n+%250A\n     def \n@@ -49,17 +49,19 @@\n _(self):\n-%0A\n+%250A\n         \n@@ -70,25 +70,27 @@\n lf.pass_ = 0\n-%0A\n+%250A\n         self\n@@ -101,17 +101,19 @@\n sMax = 2\n-%0A\n+%250A\n         \n@@ -124,17 +124,19 @@\n .gas = 0\n-%0A\n+%250A\n         \n@@ -152,17 +152,19 @@\n ax = 100\n-%0A\n+%250A\n         \n@@ -170,12 +170,114 @@\n  self.km = 0\n+%0A+print(%2522qual seu nome%2522)%250Anome: str = input()%250A%250Aprint(f%2522opa, seu nome %25C3%25A9 %257Bnome%257D%2522)%0A\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-09-30_17-48-26",
+            "content": "@@ -138,21 +138,12 @@\n  self.km = 0\n-%0A        \n",
+            "lines": "7"
+        },
+        {
+            "label": "2025-09-30_18-03-14",
+            "content": "class Carro:\n    def _init_(self):\n        self.pass_ = 0\n        self.passMax = 2\n        self.gas = 0\n        self.gasMax = 100\n        self.km = 0\n        ",
+            "lines": "8"
         }
     ]
 }
