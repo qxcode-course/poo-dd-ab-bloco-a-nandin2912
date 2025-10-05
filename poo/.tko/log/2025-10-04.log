@@ -65,3 +65,5 @@
 2025-10-04 04:14:55, EXEC, v:1, k:carro, mode:FULL, rate:70, size:87
 2025-10-04 04:17:25, EXEC, v:1, k:carro, mode:FULL, rate:70, size:88
 2025-10-04 04:18:51, EXEC, v:1, k:carro, mode:FULL, rate:100, size:90
+2025-10-04 04:19:39, MOVE, v:1, k:carro, mode:BACK
+2025-10-04 04:21:16, SELF, v:1, k:carro, rate:100, human:amigo, iagen:busquei_entender_certos_erros_com_chat, alone:4

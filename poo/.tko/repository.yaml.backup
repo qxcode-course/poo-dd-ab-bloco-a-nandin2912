@@ -11,6 +11,9 @@ expanded:
 tasks:
   toalha: '{human:sim, iagen:nao, guide:sim, study:40}'
   animal: '{rate:100}'
+  carro: '{rate:100, human:amigo, iagen:busquei_entender_certos_erros_com_chat, alone:4}'
+  calculadora: '{rate:100, human:sim, iagen:em_pequenos_erros_q_passaram_despercebidos,
+    alone:1, study:90}'
   enxugar: '{rate:100, human:e, guide:e, alone:3, study:50}'
 flags:
   quests: 2
@@ -18,4 +21,4 @@ flags:
   tasks: 0
   graph: 1
   xray: 0
-index: carro
+index: calculadora
